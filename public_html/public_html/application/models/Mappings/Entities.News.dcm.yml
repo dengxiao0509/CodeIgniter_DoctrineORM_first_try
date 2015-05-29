@@ -1,0 +1,23 @@
+ 
+Entities\News:
+  type: entity
+  table: news
+  fields:
+    id:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+    title:
+      type: string
+      length: 255
+      nullable: false
+    text:
+      type: text
+      nullable: false
+    slug:
+      type: string
+      length: 255
+      nullable: false
+      
+    
